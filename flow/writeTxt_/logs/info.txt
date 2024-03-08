@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-54
+57
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -40,4 +40,77 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403051051232830.pdf --> para 202403051051232830.pdf:Page_idx: 0 3 <-> [(0, 26)]
-#docs: 54 #processed: 4
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071414568930.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:32 Errors=32 TableEmptyBodyCellError=32
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071414568930.pdf: >शासन निर्णय क्रमांक< >केंपुयो-२०२२/प्र.क्र.१२५/का-०३<
+	elapsed_time:202403071414568930.pdf: 0.000082
+  exec_task: doc_translator_hf 
+    Paras: #143 Sentences: #70
+	[0]  #words: 159 #sentences: 52
+	After generate: 2 MB
+	[0]  #words: 257 #sentences: 74
+	After generate: 3 MB
+	[1]  #words: 261 #sentences: 34
+	After generate: 3 MB
+	[2]  #words: 260 #sentences: 24
+	After generate: 3 MB
+	[3]  #words: 270 #sentences: 24
+	After generate: 3 MB
+	[4]  #words: 262 #sentences: 21
+	After generate: 3 MB
+	[5]  #words: 143 #sentences: 8
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071634175830.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:3 Errors=3 TableEmptyBodyCellError=3
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071634175830.pdf: >शासन निर्णय क्रमांक< >मबाआ-२०२४/प्र.क्र.२८/का-७-अ<
+	elapsed_time:202403071634175830.pdf: 0.000075
+  exec_task: doc_translator_hf 
+    Paras: #46 Sentences: #0
+	[0]  #words: 260 #sentences: 53
+	After generate: 4 MB
+	[1]  #words: 153 #sentences: 13
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071848424030.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:221 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)५<  >“Tro M<
+	Replaced 2:198 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)५<  >“bro M<
+	Replaced 3:243 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)५<  >“Tro M<
+	Replaced 4:203 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)५<  >“bro M<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071848424030.pdf: >शासन निर्णय क्रमांक< >धोरण-२०२०/प्र.क्र.१४९/का-२<
+	elapsed_time:202403071848424030.pdf: 0.000080
+  exec_task: doc_translator_hf 
+    Paras: #112 Sentences: #0
+	[0]  #words: 259 #sentences: 64
+	After generate: 4 MB
+	[1]  #words: 258 #sentences: 31
+	After generate: 4 MB
+	[2]  #words: 266 #sentences: 25
+	After generate: 4 MB
+	[3]  #words: 117 #sentences: 10
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 57 #processed: 7
