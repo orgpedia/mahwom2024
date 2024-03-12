@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-57
+60
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -40,4 +40,65 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403051051232830.pdf --> para 202403051051232830.pdf:Page_idx: 0 3 <-> [(0, 26)]
-#docs: 57 #processed: 4
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121133057430.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121133057430.pdf: >शासन निर्णय क्रमांक< >मबाआ-२०२४/प्र.क्र.२९/का-७अ<
+	elapsed_time:202403121133057430.pdf: 0.000079
+  exec_task: doc_translator_hf 
+    Paras: #67 Sentences: #0
+	[0]  #words: 263 #sentences: 57
+	After generate: 3 MB
+	[1]  #words: 267 #sentences: 22
+	After generate: 3 MB
+	[2]  #words: 115 #sentences: 9
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121138275630.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121138275630.pdf: >शासन निर्णय क्रमांक< >मबाआ-२०२४/प्र.क्र.२७/का-७-अ<
+	elapsed_time:202403121138275630.pdf: 0.000095
+  exec_task: doc_translator_hf 
+    Paras: #59 Sentences: #0
+	[0]  #words: 262 #sentences: 54
+	After generate: 3 MB
+	[1]  #words: 230 #sentences: 21
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121710054630.pdf missing_cmaps: mangal, nirmalaui
+  exec_task: word_recognizer 
+	Replaced 0:105 >(nirmalaui-cid:230))<  >31)<
+	Replaced 0:143 >(nirmalaui-cid:231))<  >Sil)<
+	Replaced 0:172 >(nirmalaui-cid:232))<  >९)<
+	Replaced 0:216 >(nirmalaui-cid:233))<  >९)<
+	Replaced 0:243 >(nirmalaui-cid:234))<  >3)<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121710054630.pdf: >शासन आदेश क्रमांक< >बाहआ-२०२२/प्र.क्र.२५/का-०९<
+	elapsed_time:202403121710054630.pdf: 0.000109
+  exec_task: doc_translator_hf 
+    Paras: #37 Sentences: #0
+	[0]  #words: 268 #sentences: 34
+	After generate: 3 MB
+	[1]  #words: 199 #sentences: 8
+	After generate: 3 MB
+  exec_task: text_writer 
+#docs: 60 #processed: 7
