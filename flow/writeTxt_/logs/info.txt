@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-60
+64
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -40,4 +40,97 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403051051232830.pdf --> para 202403051051232830.pdf:Page_idx: 0 3 <-> [(0, 26)]
-#docs: 60 #processed: 4
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403131641468530.pdf missing_cmaps: sakalmarathinormal, mangal, timesnewromanpsboldmt, mangalbold
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+  exec_task: pdftable_finder 
+	==Total:80 Errors=80 TableEmptyBodyCellError=80
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403131641468530.pdf: >शासन निर्णय क्रमांक< >स्वाधार-२०२४/प्र.क्र.४३/का-०३<
+	elapsed_time:202403131641468530.pdf: 0.000112
+  exec_task: doc_translator_hf 
+    Paras: #62 Sentences: #93
+	[0]  #words: 260 #sentences: 72
+	After generate: 3 MB
+	[1]  #words: 126 #sentences: 16
+	After generate: 3 MB
+	[0]  #words: 260 #sentences: 58
+	After generate: 11 MB
+	[1]  #words: 258 #sentences: 22
+	After generate: 11 MB
+	[2]  #words: 262 #sentences: 13
+	After generate: 11 MB
+	[3]  #words: 457 #sentences: 8
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403131818246530.pdf missing_cmaps: sakalmarathinormal, mangal, timesnewromanpsboldmt, mangalbold
+  exec_task: word_recognizer 
+	Replaced 1:275 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)२<  >ऱ्ह OX<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403131818246530.pdf: >शासन निर्णय क्रमांक< >भिक्षेगृ-२०२२/प्र.क्र. २९/का-९<
+	elapsed_time:202403131818246530.pdf: 0.000095
+  exec_task: doc_translator_hf 
+    Paras: #55 Sentences: #0
+	[0]  #words: 261 #sentences: 54
+	After generate: 11 MB
+	[1]  #words: 169 #sentences: 15
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141357342830.pdf missing_cmaps: sakalmarathinormal, mangal, timesnewromanpsboldmt, mangalbold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141357342830.pdf: >शासन निर्णय क्रमांक< >मबाआ-२०२४/प्र.क्र.३३/का-७अ<
+	elapsed_time:202403141357342830.pdf: 0.000073
+  exec_task: doc_translator_hf 
+    Paras: #50 Sentences: #0
+	[0]  #words: 264 #sentences: 51
+	After generate: 11 MB
+	[1]  #words: 258 #sentences: 20
+	After generate: 11 MB
+	[2]  #words: 37 #sentences: 1
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141803292930.pdf missing_cmaps: sakalmarathinormal, mangal, timesnewromanpsboldmt, mangalbold
+  exec_task: word_recognizer 
+	Replaced 1:210 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)३<  >ऱ्ह Og<
+	Replaced 2:58 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)३<  >ऱ्ह Og<
+  exec_task: pdftable_finder 
+	==Total:8 Errors=8 TableEmptyBodyCellError=8
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141803292930.pdf: >शासन निर्णय क्रमांक< >रिटपी-२०२२/प्र.क्र.७१/का-०८<
+	elapsed_time:202403141803292930.pdf: 0.000106
+  exec_task: doc_translator_hf 
+    Paras: #37 Sentences: #19
+	[0]  #words: 45 #sentences: 15
+	After generate: 11 MB
+	[0]  #words: 262 #sentences: 38
+	After generate: 11 MB
+	[1]  #words: 25 #sentences: 2
+	After generate: 11 MB
+  exec_task: text_writer 
+#docs: 64 #processed: 8
