@@ -1,43 +1,42 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-64
+73
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:2 Errors=2 TableEmptyBodyCellError=2
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202401171554274130.pdf --> para 202401171554274130.pdf:Page_idx: 0 3 <-> [(0, 21)]
+**** PIPEERROR IN 202401171554274130.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202401241746590030.pdf missing_cmaps: mangal
-  exec_task: word_recognizer 
-	Replaced 1:145 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)४<  >t ‘O oO<
-	Replaced 2:263 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)४<  >t ‘O oO<
-	Replaced 3:42 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)४<  >t ‘O oO<
-  exec_task: pdftable_finder 
-	==Total:4 Errors=4 TableEmptyBodyCellError=4
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202401241746590030.pdf --> para 202401241746590030.pdf:Page_idx: 1 2 <-> [(0, 2)]
+**** PIPEERROR IN 202401241746590030.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202402291355290330.pdf missing_cmaps: mangal
-  exec_task: word_recognizer 
-	Replaced 1:154 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)३<  >ue Y<
-	Replaced 2:135 >(mangal-cid:148)(mangal-cid:473)(mangal-cid:231)(mangal-cid:139)३<  >ue Y<
-  exec_task: pdftable_finder 
-	==Total:2 Errors=2 TableEmptyBodyCellError=2
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202402291355290330.pdf --> para 202402291355290330.pdf:Page_idx: 1 3 <-> [(0, 2)]
+**** PIPEERROR IN 202402291355290330.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403051051232830.pdf missing_cmaps: mangal
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:13 Errors=13 TableEmptyBodyCellError=13
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202403051051232830.pdf --> para 202403051051232830.pdf:Page_idx: 0 3 <-> [(0, 26)]
-#docs: 64 #processed: 4
+**** PIPEERROR IN 202403051051232830.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141348579030.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141759221430.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141836096930.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141836167830.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141836280930.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141836376930.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141836438330.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141942482030.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403141942537230.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+#docs: 73 #processed: 13
