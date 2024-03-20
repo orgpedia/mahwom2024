@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-76
+80
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -54,22 +54,79 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403141836096930.pdf --> para 202403141836096930.pdf:Page_idx: 0 1 <-> [(0, 8), (0, 9)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403191734186830.pdf missing_cmaps: sakalmarathinormal, mangal
+	202403191111465630.pdf missing_cmaps: sakalmarathinormal, mangal
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
-	==Total:2 Errors=2 TableEmptyBodyCellError=2
+	==Total:29 Errors=29 TableEmptyBodyCellError=29
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403191734186830.pdf: >शासन निर्णय क्रमांक< >मबाआ-२०२३/प्र.क्र.११४/का-७अ<
-	elapsed_time:202403191734186830.pdf: 0.000086
+	extract_order_number:202403191111465630.pdf: >शासन निर्णय क्रमांक< >एबावि-२०२३/प्र.क्र.१७७/का.६<
+	elapsed_time:202403191111465630.pdf: 0.000079
   exec_task: doc_translator_hf 
-    Paras: #36 Sentences: #21
-	[0]  #words: 40 #sentences: 8
+    Paras: #30 Sentences: #28
+	[0]  #words: 65 #sentences: 12
 	After generate: 2 MB
-	[0]  #words: 267 #sentences: 36
+	[0]  #words: 270 #sentences: 33
 	After generate: 3 MB
-	[1]  #words: 48 #sentences: 4
+	[1]  #words: 16 #sentences: 1
 	After generate: 3 MB
   exec_task: text_writer 
-#docs: 76 #processed: 6
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403191216062230.pdf missing_cmaps: sakalmarathinormal, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:19 Errors=19 TableEmptyBodyCellError=19
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 12: एबावि-२०२३/प्र.क्र.७३/का-५ ==शासन निर्णय क्रमांक:- एबावि-२०२३/प्र.क्र.७३/का-५
+	extract_order_number:202403191216062230.pdf: >शासन निर्णय क्रमांक< >एबावि-२०२३/प्र.क्र.७३/का-५<
+	elapsed_time:202403191216062230.pdf: 0.000693
+  exec_task: doc_translator_hf 
+    Paras: #23 Sentences: #16
+	[0]  #words: 52 #sentences: 9
+	After generate: 3 MB
+	[0]  #words: 192 #sentences: 28
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403191216200930.pdf missing_cmaps: sakalmarathinormal, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403191216200930.pdf: >शासन निर्णय क्रमांक< >एबावि-२०२४/प्र.क्र.४३/का.६<
+	elapsed_time:202403191216200930.pdf: 0.000074
+  exec_task: doc_translator_hf 
+    Paras: #42 Sentences: #33
+	[0]  #words: 57 #sentences: 12
+	After generate: 3 MB
+	[0]  #words: 261 #sentences: 39
+	After generate: 3 MB
+	[1]  #words: 84 #sentences: 7
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403191216246630.pdf missing_cmaps: sakalmarathinormal, mangal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403191216246630.pdf: >शासन निर्णय क्रमांक< >एबावि-२०२०/प्र.क्र.१३/का.६<
+	elapsed_time:202403191216246630.pdf: 0.000095
+  exec_task: doc_translator_hf 
+    Paras: #32 Sentences: #17
+	[0]  #words: 85 #sentences: 7
+	After generate: 3 MB
+	[0]  #words: 260 #sentences: 33
+	After generate: 3 MB
+  exec_task: text_writer 
+#docs: 80 #processed: 9
